@@ -24,7 +24,7 @@ stages:
     outs:
     - model.pkl
 
-    
+
   model_eval:
     cmd: python src/model_eval.py
     deps:
